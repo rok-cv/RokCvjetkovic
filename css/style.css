@@ -25,7 +25,7 @@ a {
   float: left;
   height: 12em;
   width: 40%;
-  margin-right: 10%;
+  margin-right: 5%;
   margin-left: 5%;
 }
 
@@ -37,6 +37,8 @@ a {
   float: left;
   height: 12em;
   width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .project2:hover {
