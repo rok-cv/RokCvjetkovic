@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+  <title>Rok Cvjetković</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="icon" href="pics/favicon.png" type="image/x-icon" />
+
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar">
+        <a
+          class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0);"
+          onclick="toggleFunction()"
+          title="Toggle Navigation Menu"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-user"></i> ABOUT</a
+        >
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-th"></i> PORTFOLIO</a
+        >
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-envelope"></i> CONTACT</a
+        >
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div
+        id="navDemo"
+        class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium"
+      >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >ABOUT</a
+        >
+        <a
+          href="#portfolio"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >PORTFOLIO</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >CONTACT</a
+        >
+      </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div id="home"></div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <h3 class="w3-center">ABOUT ME</h3>
+      <p class="w3-center">
+        <em>I love exploring and learning about new fields</em>
+      </p>
+      <p>
+        Ever since I was little, I have always researched and been interested in
+        new places, attractions and extreme sports. The outside world fascinated
+        me every day again and charmed me with a new place, plant, animal or
+        tree canopy that I was able to climb. I have always dreamt of capturing
+        the moment and save it. A few years passed and I got my first camera, it
+        was a NIKON D3400. Photography impressed me and the ability to save the
+        moment at the exact angle I imagined took over me. At the same time, I
+        got to know the world of information technology and became acquainted
+        with the web. The fact that I could realize my visions in the form of
+        websites made me even more excited, paired with a healthy lifestyle and
+        sports has only further strengthened new ideas and creativity, which
+        develops into ultimate projects and life goals.
+      </p>
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p>
+            <b><i class="fa fa-user w3-margin-right"></i>Rok Cvjetković</b>
+          </p>
+          <br />
+          <img
+            src="pics/me.jpg"
+            class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+            alt="Photo of Me"
+            width="500"
+            height="333"
+          />
+        </div>
+
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p>Welcome to my website.</p>
+          <p>
+            By nature, I am an optimistic and driven person. I like to set
+            myself new challenges and despite the complexity, I am always
+            patient, persistent and thoughtful. New things excite me and fill me
+            with adrenaline. Other qualities include happily listening to,
+            advising, and helping a person. Good company and honest people mean
+            a lot to me. In my free time, I like to have fun with extreme shorts
+            and exploring new places. Tidiness is an important factor in my life
+            that connects to my entrepreneurial streak and allows me to achieve
+            remarkable achievements. All areas together create harmony and love
+            for life in me.
+          </p>
+        </div>
+      </div>
+      <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+      <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+      <div class="w3-light-grey">
+        <div
+          class="w3-container w3-padding-small w3-dark-grey w3-center"
+          style="width: 90%"
+        >
+          90%
+        </div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+      <div class="w3-light-grey">
+        <div
+          class="w3-container w3-padding-small w3-dark-grey w3-center"
+          style="width: 85%"
+        >
+          85%
+        </div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+      <div class="w3-light-grey">
+        <div
+          class="w3-container w3-padding-small w3-dark-grey w3-center"
+          style="width: 75%"
+        >
+          75%
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3+</span><br />
+        Collaborations
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">15+</span><br />
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br />
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">20+</span><br />
+        Meetings
+      </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div
+      class="w3-content w3-container w3-padding-64 w3-margin-top"
+      id="portfolio"
+    >
+      <h3 class="w3-center">MY WORK</h3>
+      <p class="w3-center">
+        <em
+          >Here are some of my latest photographs.<br />
+          Click on the images to make them bigger</em
+        >
+      </p>
+      <br />
+
+      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img
+            src="pics/DSC_0152.JPG"
+            style="width: 100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="The fire of youth"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="pics/DSC_0011.jpg"
+            style="width: 100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Morning joy"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="pics/DSC_0435.JPG"
+            style="width: 100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Summer lady"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="pics/DSC_0494.JPG"
+            style="width: 100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Connection"
+          />
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img
+            src="pics/DSC_0349.jpg"
+            style="width: 100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Blue kisses"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="pics/DSC_0351.jpg"
+            style="width: 100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Pinkies in the sun"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="pics/DSC_0779.JPG"
+            style="width: 100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Hidden beauty"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="pics/DSC_0339.JPG"
+            style="width: 100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Clouds of glory"
+          />
+        </div>
+        <!--<button
+          class="w3-button w3-padding-large w3-light-grey"
+          style="margin-top: 64px"
+        >
+          LOAD MORE
+        </button>-->
+      </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+      <h3 class="w3-center">PROJECTS</h3>
+      <p class="w3-center">
+        <em
+          >Here are some of my latest projects.<br />
+          Click on the images to visit my projects.</em
+        >
+      </p>
+      <br />
+
+      <div class="main">
+        <a href="https://rok-cv.github.io/NeonBricks/" target="_blank">
+          <div class="project1">
+            <img
+              src="pics/bricks.PNG"
+              alt="Bricks Game"
+              style="height: 12em; width: 100%"
+            />
+          </div>
+        </a>
+        <a href="https://rok-cv.github.io/Evolution/" target="_blank">
+          <div class="project2">
+            <img
+              src="pics/maze.PNG"
+              alt="Maze Game"
+              style="height: 12em; width: 100%"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div
+      id="modal01"
+      class="w3-modal w3-black"
+      onclick="this.style.display='none'"
+    >
+      <span
+        class="w3-button w3-large w3-black w3-display-topright"
+        title="Close Modal Image"
+        ><i class="fa fa-remove"></i
+      ></span>
+      <div
+        class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64"
+      >
+        <img id="img01" class="w3-image" />
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+      <h3 class="w3-center">FIND ME ON</h3>
+      <div class="w3-xxxlarge w3-section w3-center">
+        <a href="https://www.facebook.com/rok.cvjetkovic.3/" target="_blank">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        </a>
+        <a href="https://www.instagram.com/rokcvjetkovic/" target="_blank">
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+        </a>
+        <a href="https://twitter.com/neighbourVadim" target="_blank">
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rok-cvjetkovic-2833661aa/"
+          target="_blank"
+        >
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </a>
+      </div>
+      <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+      <div class="w3-row w3-padding-32 w3-section"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer
+      class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off"
+    >
+      <a href="#home" class="w3-button w3-light-grey"
+        ><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a
+      >
+      <div class="w3-xlarge w3-section">
+        <a href="https://www.facebook.com/rok.cvjetkovic.3/" target="_blank">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        </a>
+        <a href="https://www.instagram.com/rokcvjetkovic/" target="_blank">
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+        </a>
+        <a href="https://twitter.com/neighbourVadim" target="_blank">
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rok-cvjetkovic-2833661aa/"
+          target="_blank"
+        >
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </a>
+      </div>
+      <p>Made by Rok Cvjetković</p>
+    </footer>
+
+    <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+      // Change style of navbar on scroll
+      window.onscroll = function () {
+        myFunction();
+      };
+      function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          navbar.className =
+            "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+          navbar.className = navbar.className.replace(
+            " w3-card w3-animate-top w3-white",
+            ""
+          );
+        }
+      }
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>
